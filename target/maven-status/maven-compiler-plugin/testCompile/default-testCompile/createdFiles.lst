@@ -1,0 +1,6 @@
+FabricaDeDriver\FDriver.class
+Pages\LoginPage.class
+Stepes\LoginStep.class
+Runner\Runner.class
+Stepes\CarrinhoDeCompra.class
+Pages\CarrinhoDeCompraPage.class

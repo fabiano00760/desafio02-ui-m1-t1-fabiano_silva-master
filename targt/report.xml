@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="15.702">
+    <testcase classname="Teste de login" name="teste de login" time="6.939">
+        <system-out><![CDATA[Given que eu esteja na pagina home "https://www.saucedemo.com"..............passed
+When no capo login preencho o campo de username com "standard_user".........passed
+And preencho o campo de password com "secret_sauce".........................passed
+And clico no btn logon......................................................passed
+Then logo com sucesso.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Teste de login" name="carrinho de compras" time="3.913">
+        <system-out><![CDATA[Given que eu esteja na pagina home "https://www.saucedemo.com"..............passed
+When no capo login preencho o campo de username com "standard_user".........passed
+And preencho o campo de password com "secret_sauce".........................passed
+And clico no btn logon......................................................passed
+When selecionar primeio produto.............................................passed
+And selecionar segundo produto..............................................passed
+Then conferir o carinho.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Teste de login" name="realizar checkout" time="4.581">
+        <system-out><![CDATA[Given que eu esteja na pagina home "https://www.saucedemo.com"..............passed
+When no capo login preencho o campo de username com "standard_user".........passed
+And preencho o campo de password com "secret_sauce".........................passed
+And clico no btn logon......................................................passed
+Given que eu esteja na tela YOUR CART.......................................passed
+When clico no btn checkout..................................................passed
+And preencho campo first name "Rodrigo".....................................passed
+And preencho campo last name  "silva".......................................passed
+And preencho o campo postal "04851-689".....................................passed
+And clico em continue.......................................................passed
+And e checo o produto selecionado...........................................passed
+And clico no btn finish.....................................................passed
+Then checkout realizado com sucesso.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
